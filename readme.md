@@ -49,20 +49,20 @@ cluster.fork();
 
 #####EXAMPLE:
 
-var cluster = require('cluster');
-var http = require('http');
-var numCPUs = 4;
+    var cluster = require('cluster');
+    var http = require('http');
+    var numCPUs = 4;
 
-if (cluster.isMaster) {
-    for (var i = 0; i < numCPUs; i++) {
-        cluster.fork();
+    if (cluster.isMaster) {
+        for (var i = 0; i < numCPUs; i++) {
+            cluster.fork();
     }
-} else {
-    http.createServer(function(req, res) {
-        res.writeHead(200);
-        res.end('process ' + process.pid + ' says hello!');
-    }).listen(8000);
-}
+    } else {
+        http.createServer(function(req, res) {
+            res.writeHead(200);
+            res.end('process ' + process.pid + ' says hello!');
+        }).listen(3000);
+    }
 
 ###4. Explain the Express concept middleware.
 Since Express only supports some basic features, the Express middlewate is a possibility for expand
@@ -75,7 +75,7 @@ next middleware, else the request will be left hanging.
 
 #####Example of a Third-party middleware
 
-app.use(bodyParser.urlencoded({extended = false}))
+    app.use(bodyParser.urlencoded({extended = false}))
 
 The middleware above will create a new body object containing the parsed data, and populate the req.body
 property with this object, or an empty object ({}) if there was no body to parse. This object will contain
@@ -84,10 +84,10 @@ extended is true).
 
 You can also make your own custom middleware like the example below:
 
-app.use(function (req, res, next) {
-   console.log('Time:', Date.now()+"Log all requests");
-   next();
-}
+    app.use(function (req, res, next) {
+        console.log('Time:', Date.now()+"Log all requests");
+        next();
+    }
 
 The use of this middleware means that when a request arrives and hits the function it will print its
 message, and then call the next(), to pass on the control to the next middleware.
@@ -107,12 +107,12 @@ the website. Web browsers normally delete session cookies when the user closes t
 To implement a session cookie in a Express Application, the first thing to do is to require the module
 express-session.
 
-var session = require('express-session');
+    var session = require('express-session');
 
 Then we can use this middleware to create a session cookie. In the example below have I used three properties
 in the options object.
 
-app.use(session({secret:'secret_3162735', saveUninitialized:true, resave:true}));
+    app.use(session({secret:'secret_3162735', saveUninitialized:true, resave:true}));
 
 The secret property is used to sign the session ID cookie. This can be either a string
 for a single secret, or an array of multiple secrets.
@@ -129,23 +129,22 @@ The resave property forces the session to be saved back to the session store, ev
 modified during the request.
 
 Finally we can make a custom middleware to make sure that the user has logged in.
-app.use(function (req,res,next){
-
-   if(session.userName !== undefined){
-      next();
-   }
-   else if(req.body.userName !== undefined){
-     if(req.body.userName.length > 0){
-       session.userName = req.body.userName;
-       res.redirect("/api/")
-     }
-     res.redirect("/api/login")
-   }
-  else {
-     req.url = "/api/login";
-     next();
-   }
-});
+    app.use(function (req,res,next){
+        if(session.userName !== undefined){
+            next();
+        }
+        else if(req.body.userName !== undefined){
+            if(req.body.userName.length > 0){
+                session.userName = req.body.userName;
+                res.redirect("/api/")
+            }
+            res.redirect("/api/login")
+            }
+        else {
+            req.url = "/api/login";
+            next();
+        }
+    });
 
 Using the session object for the sole purpose of carrying out the transmission of a communication, doesn't
 require the users accept. But tracking and gather information about the users behavior does require the users
@@ -172,101 +171,101 @@ backend, we had to use JSP, with JavaScript we have the other three options.
 ###7. Explain your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.
 Like always we start to make the base setup like this:
 
-// call the packages we need
-var express    = require('express');
-var app        = express();
-var bodyParser = require('body-parser');
+    // call the packages we need
+    var express    = require('express');
+    var app        = express();
+    var bodyParser = require('body-parser');
 
-// configure app to use bodyParser()
-// this will let us get the data from a POST rendered in the req.body object
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+    // configure app to use bodyParser()
+    // this will let us get the data from a POST rendered in the req.body object
+    app.use(bodyParser.urlencoded({ extended: true }));
+    app.use(bodyParser.json());
 
 Then we need to register all our routes or endpoints. By using this statement all our routes will be prefixed with /api.
 
-app.use('/api', router);
+    app.use('/api', router);
 
 We can make a get endpoint which returns a random joke like this.
 
-router.get('/joke/random', function(req,res,next){
-  res.json({joke : jokes.getRandomJoke()});
-});
+    router.get('/joke/random', function(req,res,next){
+        res.json({joke : jokes.getRandomJoke()});
+    });
 
 We are sending back information as JSON data. This is standard for an API and will help the people using our API to use our data.
 
 To store a new joke we can make an endpoint or route like this and return a JSON message back.
 
-router.post('/storejoke', function(req, res){
-  jokes.addJoke(req.body.joke);
-  res.json({Message: "New Joke succesfully stored"});
-});
+    router.post('/storejoke', function(req, res){
+        jokes.addJoke(req.body.joke);
+        res.json({Message: "New Joke succesfully stored"});
+    });
 
 Updating a joke can be done like this:
 
-router.put('/joke/:joke_id', function(req, res){
-  var id = req.params.joke_id;
-  jokes.allJokes[id] = req.body.joke;
-  res.json({message: "Joke with id: " + id + " was succesfully updated"});
-});
+    router.put('/joke/:joke_id', function(req, res){
+        var id = req.params.joke_id;
+        jokes.allJokes[id] = req.body.joke;
+        res.json({message: "Joke with id: " + id + " was succesfully updated"});
+    });
 
 And finally a delete endpoint could be done like this:
 
-router.delete('/joke/:joke_id', function(req, res){
-  var id = req.params.joke_id;
-  jokes.removeJoke(id);
-  res.json({message: "Joke with id: " + id + " was succesfully removed"});
-});
+    router.delete('/joke/:joke_id', function(req, res){
+        var id = req.params.joke_id;
+        jokes.removeJoke(id);
+        res.json({message: "Joke with id: " + id + " was succesfully removed"});
+    });
 
 To test all these endpoints we can use the request package like this:
 
-var request = require("request");
+    var request = require("request");
 
-var getRandom = {
-    url: "http://localhost:3000/api/joke/random", method: "GET",
-    json : true
-};
+    var getRandom = {
+        url: "http://localhost:3000/api/joke/random", method: "GET",
+        json : true
+    };
 
-var getAll = {
-    url: "http://localhost:3000/api/jokes", method: "GET",
-    json : true
-};
+    var getAll = {
+        url: "http://localhost:3000/api/jokes", method: "GET",
+        json : true
+    };
 
-var storeJoke = {
-    url: "http://localhost:3000/api/storejoke", method: "POST",
-    json : true,
-    body : {joke : "I'm a joke"}
-};
+    var storeJoke = {
+        url: "http://localhost:3000/api/storejoke", method: "POST",
+        json : true,
+        body : {joke : "I'm a joke"}
+    };
 
-var updateJoke = {
-    url: "http://localhost:3000/api/joke/3", method: "PUT",
-    json : true,
-    body : {joke : "I'm a updated joke"}
-};
+    var updateJoke = {
+        url: "http://localhost:3000/api/joke/3", method: "PUT",
+        json : true,
+        body : {joke : "I'm a updated joke"}
+    };
 
-var deleteJoke = {
-    url: "http://localhost:3000/api/joke/2", method: "DELETE",
-    json: true
-};
+    var deleteJoke = {
+        url: "http://localhost:3000/api/joke/2", method: "DELETE",
+        json: true
+    };
 
-request(getRandom,function(error,res,body){
-    console.log(body.joke); //Assume the service returns the a random Joke
-});
+    request(getRandom,function(error,res,body){
+        console.log(body.joke); //Assume the service returns the a random Joke
+    });
 
-request(getAll,function(error,res,body){
-    console.log(body.allJokes); //Assume the service returns an array with all Jokes
-});
+    request(getAll,function(error,res,body){
+        console.log(body.allJokes); //Assume the service returns an array with all Jokes
+    });
 
-request(storeJoke,function(error,res,body){
-    console.log(body.newJoke); //Assume the service returns the new Joke
-});
+    request(storeJoke,function(error,res,body){
+        console.log(body.newJoke); //Assume the service returns the new Joke
+    });
 
-request(updateJoke,function(error,res,body){
-    console.log(body.message); //Assume the service returns an update message
-});
+    request(updateJoke,function(error,res,body){
+        console.log(body.message); //Assume the service returns an update message
+    });
 
-request(deleteJoke,function(error,res,body){
-    console.log(body.message); //Assume the service returns an remove message
-});
+    request(deleteJoke,function(error,res,body){
+        console.log(body.message); //Assume the service returns an remove message
+    });
 
 This kind of testing is similar to the use of POSTMAN where you can test the request and response.
 That means you cannot make an assert.
@@ -280,70 +279,66 @@ place the so called "it blocks" which corresponds to all our test methods. Like 
 blocks also takes two parameters; a name, and an anonymous function. Inside the anonymous function we can
 use the different assertion libraries like "chai", two assert different scenarios. Fx. like this:
 
-describe('Calculate', function(){
-   it('returns the sum of the numbers after a plus operation', function(){
-       var result = cal.calculate("plus", 2, 2);
-
-       expect(result).to.equal(4);
-       expect(result).to.be.a('number');
-   });
-});
+    describe('Calculate', function(){
+        it('returns the sum of the numbers after a plus operation', function(){
+            var result = cal.calculate("plus", 2, 2);
+            expect(result).to.equal(4);
+            expect(result).to.be.a('number');
+        });
+    });
 
 If i wanted to initialse or clean up after my test i could use the so called hooks:
 
-  before(function() {
-    // runs before all tests in this block
-  });
+    before(function() {
+        // runs before all tests in this block
+    });
 
-  after(function() {
-    // runs after all tests in this block
-  });
+    after(function() {
+        // runs after all tests in this block
+    });
 
-  beforeEach(function() {
-    // runs before each test in this block
-  });
+    beforeEach(function() {
+        // runs before each test in this block
+    });
 
-  afterEach(function() {
-    // runs after each test in this block
-  });
+    afterEach(function() {
+        // runs after each test in this block
+    });
 
 If a want to test a async function like a call to my joke api i can do it like this:
 
-describe('Get random Joke', function(){
-    it('returns a random joke from my own api', function(done){
-        module.joke(function(reply){
-            console.log(reply);
-            done();
+    describe('Get random Joke', function(){
+        it('returns a random joke from my own api', function(done){
+            module.joke(function(reply){
+                console.log(reply);
+                done();
+            })
         })
-    })
-});
+    });
 
 The important thing to remember when testing async is simply to add a callback (usually named done) to it().
 Then Mocha will know that it should wait for completion.
 
 The code below is the code i get from the "module.joke" in my "it block".
 
-exports.joke = function(callback){
-  var http = require('http');
+    exports.joke = function(callback){
+        var http = require('http');
+        var str = '';
+        http.get('http://localhost:3000/api/joke/random', function(response){
+            response.on('data', function(data){
+                str += data;
+            });
 
-  var str = '';
+            response.on('end', function(){
+                callback(JSON.parse(str));
+            });
 
-  http.get('http://localhost:3000/api/joke/random', function(response){
-      response.on('data', function(data){
-          str += data;
-      });
-
-      response.on('end', function(){
-          callback(JSON.parse(str));
-      });
-
-      response.on('error', function(error){
-         console.log(error);
-         callback(error);
-      });
-  })
-      .end();
-};
+            response.on('error', function(error){
+                console.log(error);
+                callback(error);
+            });
+        }).end();
+    };
 
 
 ###9. Explain, using relevant examples, different ways to mock out databases, HTTP-request etc?
@@ -354,29 +349,28 @@ the module Sinon which is used for making stubs.
 
 To use sinon in Mocha and Chai you will have to requrie both sinon and sinon-chai like this:
 
-var sinon = require('sinon');
-var sinonChai = require('sinon-chai');
-chai.use(sinonChai);
+    var sinon = require('sinon');
+    var sinonChai = require('sinon-chai');
+    chai.use(sinonChai);
 
 In the example below i use sinon to stub a http request.
 
-describe('Info Language', function () {
-    it('returns language info of the repo', function (done) {
-        var ghRepo = {
-            'language': 'Assembly'
-        };
-        var stub = sinon.stub().callsArgWith(0, ghRepo);
-
-        word.infoLang(stub, function (reply) {
-            expect(reply).to.equal('Language is Assembly');
-            console.log(reply);
-            done();
+    describe('Info Language', function () {
+        it('returns language info of the repo', function (done) {
+            var ghRepo = {
+                'language': 'Assembly'
+            };
+            var stub = sinon.stub().callsArgWith(0, ghRepo);
+            word.infoLang(stub, function (reply) {
+                expect(reply).to.equal('Language is Assembly');
+                console.log(reply);
+                done();
+            })
         })
-    })
-});
-
-exports.infoLang = function (infoFunc, callback) {
-    infoFunc(function (reply) {
-        callback('Language is ' + reply.language);
     });
-};
+
+    exports.infoLang = function (infoFunc, callback) {
+        infoFunc(function (reply) {
+            callback('Language is ' + reply.language);
+        });
+    };
