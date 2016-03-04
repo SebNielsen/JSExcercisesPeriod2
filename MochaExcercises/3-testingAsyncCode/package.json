@@ -1,0 +1,22 @@
+{
+  "name": "test_async_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && mocha test --require blanket --reporter html-cov > coverage.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blanket": "^1.2.2",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "config": {
+    "blanket": {
+      "pattern": ["index.js"],
+      "data-cover-never": "node_modules"
+    }
+  }
+}

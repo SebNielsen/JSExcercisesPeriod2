@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome #{user}
+  a(style='white-space:pre;' href='/joke') See random joke
+  br
+  a(href='/jokes') See all jokes
+  br
+  a(href='/addjoke') Add new joke
