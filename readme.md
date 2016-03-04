@@ -12,8 +12,6 @@ update the application. Therefore is the use of Javascript as a backend also ver
 #####Pros:
 - Handles the I/O scaling problem very well.
 
-- The event loop which is a single thread that performs all I/O operations asynchronously.
-
 - If your application doesn’t have any CPU intensive computation, you can build it in Javascript top-to-bottom,
 even down to the database level if you use JSON storage Object DB like MongoDB.
 
@@ -29,23 +27,23 @@ Application or a websockets app run on top of Node.js.
 A strategy to handle these CPU intensive computations could be the use of a module that enables “clustering”
 Node.js which runs as many dedicated single threaded processes under a master Node.js process. In Node.js
 clustering, the Node.js server consists of multiple processes executing on the same processor, typically one
-for each core. We start the main process called the master process. Master process starts and manages other
+for each core. You start the main process called the master process. Master process starts and manages other
 processes called worker processes which do the actual work of handling incoming requests.
 Although using a cluster module sounds complex in theory, it is very straightforward to implement.
 To start using it, you have to include it in your Node.js application:
 
-var cluster = require('cluster);
+    var cluster = require('cluster);
 
 A cluster module executes the same Node.js process multiple times. Therefore, the first thing you need to
 do is to identify what portion of the code is for the master process and what portion is for the workers.
 The cluster module allows you to identify the master process as follows:
 
-if(cluster.isMaster) { ... }
+    if(cluster.isMaster) { ... }
 
 The master process is the process you initiate, which in turn initialize the workers. To start a worker
 process inside a master process, we’ll use the fork() method:
 
-cluster.fork();
+    cluster.fork();
 
 #####EXAMPLE:
 
@@ -65,7 +63,7 @@ cluster.fork();
     }
 
 ###4. Explain the Express concept middleware.
-Since Express only supports some basic features, the Express middlewate is a possibility for expand
+Since Express only supports some basic features, the Express middleware is a possibility for expand
 the amount of features, according to your needs. That means that Express middlewares are pluggable
 JavaScript components, which make Express apps very modular, flexible, and extensible. A middleware is
 a function with access to the request and repsonse object, well as the next middleware in line. Since
@@ -109,7 +107,7 @@ express-session.
 
     var session = require('express-session');
 
-Then we can use this middleware to create a session cookie. In the example below have I used three properties
+Then you can use this middleware to create a session cookie. In the example below have I used three properties
 in the options object.
 
     app.use(session({secret:'secret_3162735', saveUninitialized:true, resave:true}));
@@ -128,7 +126,8 @@ The default value is true, but using the default has been deprecated, as the def
 The resave property forces the session to be saved back to the session store, even if the session was never
 modified during the request.
 
-Finally we can make a custom middleware to make sure that the user has logged in.
+Finally you can make a custom middleware to make sure that the user has logged in.
+
     app.use(function (req,res,next){
         if(session.userName !== undefined){
             next();
@@ -153,7 +152,7 @@ accept.
 ###6. Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
 A web template system uses a template processor to combine web templates to form finished web pages,
 possibly using some data source to customize the pages or present a large amount of content on
-similar-looking pages. Server side templating can be ccharacterized like this: The controller gets some
+similar-looking pages. Server side templating can be characterized like this: The controller gets some
 data from the model and pass it on to the view. The view then sends some data back to the controller,
 and then back to the model.
 
@@ -169,31 +168,31 @@ to write the logical behavior and with the other ones we use JavaScript. That me
 backend, we had to use JSP, with JavaScript we have the other three options.
 
 ###7. Explain your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.
-Like always we start to make the base setup like this:
+Like always I start to make the base setup like this:
 
-    // call the packages we need
+    // call the packages I need
     var express    = require('express');
     var app        = express();
     var bodyParser = require('body-parser');
 
     // configure app to use bodyParser()
-    // this will let us get the data from a POST rendered in the req.body object
+    // this will let me get the data from a POST rendered in the req.body object
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(bodyParser.json());
 
-Then we need to register all our routes or endpoints. By using this statement all our routes will be prefixed with /api.
+Then I need to register all the routes or endpoints. By using this statement all the routes will be prefixed with /api.
 
     app.use('/api', router);
 
-We can make a get endpoint which returns a random joke like this.
+I can make a get endpoint which returns a random joke like this.
 
     router.get('/joke/random', function(req,res,next){
         res.json({joke : jokes.getRandomJoke()});
     });
 
-We are sending back information as JSON data. This is standard for an API and will help the people using our API to use our data.
+I am sending back information as JSON data because this is standard for an API and will help the people using the API to use the data.
 
-To store a new joke we can make an endpoint or route like this and return a JSON message back.
+To store a new joke I can make an endpoint or route like this and return a JSON message back.
 
     router.post('/storejoke', function(req, res){
         jokes.addJoke(req.body.joke);
@@ -216,7 +215,7 @@ And finally a delete endpoint could be done like this:
         res.json({message: "Joke with id: " + id + " was succesfully removed"});
     });
 
-To test all these endpoints we can use the request package like this:
+To test all these endpoints can I use the request package like this:
 
     var request = require("request");
 
@@ -275,7 +274,7 @@ That means you cannot make an assert.
 To test JavaScript code, we can install and use the test librabry "Mocha". In Mocha we use an describe
 block, which corresponds to a test suite where we can place all our test. The describe block takes two
 parameters,the first one is the name of the block, and the second is an anonymous function, where we can
-place the so called "it blocks" which corresponds to all our test methods. Like the describe block the it
+place the so called "it blocks" which corresponds to our test methods. Like the describe block the it
 blocks also takes two parameters; a name, and an anonymous function. Inside the anonymous function we can
 use the different assertion libraries like "chai", two assert different scenarios. Fx. like this:
 
@@ -319,7 +318,7 @@ If a want to test a async function like a call to my joke api i can do it like t
 The important thing to remember when testing async is simply to add a callback (usually named done) to it().
 Then Mocha will know that it should wait for completion.
 
-The code below is the code i get from the "module.joke" in my "it block".
+The code below is the code I get from the "module.joke" in my "it block".
 
     exports.joke = function(callback){
         var http = require('http');
@@ -342,7 +341,7 @@ The code below is the code i get from the "module.joke" in my "it block".
 
 
 ###9. Explain, using relevant examples, different ways to mock out databases, HTTP-request etc?
-Normally when you make a test, it will be a benefit to isolate your test as much as possible,
+Normally when you make a test, it will be a benefit to isolate the test as much as possible,
 to avoid influence from other aspects. To isolate a test of a API, and to remove any dependencies,
 i could be a good idea to mock the HTTP requests and the database. This can be done by using a
 the module Sinon which is used for making stubs.
@@ -353,7 +352,7 @@ To use sinon in Mocha and Chai you will have to requrie both sinon and sinon-cha
     var sinonChai = require('sinon-chai');
     chai.use(sinonChai);
 
-In the example below i use sinon to stub a http request.
+In the example below am i using sinon to stub a http request.
 
     describe('Info Language', function () {
         it('returns language info of the repo', function (done) {
@@ -368,6 +367,8 @@ In the example below i use sinon to stub a http request.
             })
         })
     });
+
+The code below is the code i call with my stub and a callback as parameter.
 
     exports.infoLang = function (infoFunc, callback) {
         infoFunc(function (reply) {
