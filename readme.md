@@ -1,5 +1,5 @@
 #Exam questions period 2
-##1. Why would you consider a Scripting Language as JavaScript as your Backend Platform.
+###1. Why would you consider a Scripting Language as JavaScript as your Backend Platform.
 A great thing with JavaScript is that, not only you can use the same language for client and server side,
 but you also can use JSON, a subset of the "JavaScript Object Notation", for transport on the network and
 to store data in NoSQL database. Databases which as CouchDB, MongoDB, Riak, or wakandaDB also works with
@@ -7,9 +7,9 @@ JavaScript instead of SQL. It is fast to implement features managing formats cha
 is also fast to test and update the application. The use of NodeJs and Express makes it easy to extend and
 update the application. Therefore is the use of Javascript as a backend also very flexible.
 
-##2.Explain Pros & Cons in using Node.js + Express to implement your Backend
-Pros:
-----------
+###2. Explain Pros & Cons in using Node.js + Express to implement your Backend
+
+#####Pros:
 - Handles the I/O scaling problem very well.
 
 - The event loop which is a single thread that performs all I/O operations asynchronously.
@@ -20,13 +20,12 @@ even down to the database level if you use JSON storage Object DB like MongoDB.
 - Crawlers receive a fully-rendered HTML response, which is far more SEO-friendly than, say, a Single Page
 Application or a websockets app run on top of Node.js.
 
-Cons:
-----------
+#####Cons:
 - Any CPU intensive computation will block Node.js responsiveness, so a threaded platform is a better approach.
 
 - Using Node.js with a relational database should be very difficult.
 
-##3Explain strategies to implement a Node.js based server architecture that still could take advantage of a multi-core Server.
+###3. Explain strategies to implement a Node.js based server architecture that still could take advantage of a multi-core Server.
 A strategy to handle these CPU intensive computations could be the use of a module that enables “clustering”
 Node.js which runs as many dedicated single threaded processes under a master Node.js process. In Node.js
 clustering, the Node.js server consists of multiple processes executing on the same processor, typically one
@@ -48,8 +47,8 @@ process inside a master process, we’ll use the fork() method:
 
 cluster.fork();
 
-EXAMPLE:
--------------
+#####EXAMPLE:
+
 var cluster = require('cluster');
 var http = require('http');
 var numCPUs = 4;
@@ -65,7 +64,7 @@ if (cluster.isMaster) {
     }).listen(8000);
 }
 
-##4.Explain the Express concept middleware.
+###4. Explain the Express concept middleware.
 Since Express only supports some basic features, the Express middlewate is a possibility for expand
 the amount of features, according to your needs. That means that Express middlewares are pluggable
 JavaScript components, which make Express apps very modular, flexible, and extensible. A middleware is
@@ -74,8 +73,8 @@ middleware are executed serially, their order of inclusion is important. If the 
 not ending the request-response cycle, it is important to call next() to pass on the control to the
 next middleware, else the request will be left hanging.
 
-Example of a Third-party middleware
------------------------------------
+#####Example of a Third-party middleware
+
 app.use(bodyParser.urlencoded({extended = false}))
 
 The middleware above will create a new body object containing the parsed data, and populate the req.body
@@ -94,7 +93,7 @@ The use of this middleware means that when a request arrives and hits the functi
 message, and then call the next(), to pass on the control to the next middleware.
 
 
-##5.Explain how to implement sessions.
+###5. Explain how to implement sessions.
 Server side technologies can implement state or server side sessions using one or more of the following
 methods:
 
@@ -152,7 +151,7 @@ Using the session object for the sole purpose of carrying out the transmission o
 require the users accept. But tracking and gather information about the users behavior does require the users
 accept.
 
-##6.Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
+###6. Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
 A web template system uses a template processor to combine web templates to form finished web pages,
 possibly using some data source to customize the pages or present a large amount of content on
 similar-looking pages. Server side templating can be ccharacterized like this: The controller gets some
@@ -170,7 +169,7 @@ syntax, but all of them can be used to render a html page, based on some logical
 to write the logical behavior and with the other ones we use JavaScript. That means when we used Java for our
 backend, we had to use JSP, with JavaScript we have the other three options.
 
-##7.Explain your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.
+###7. Explain your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.
 Like always we start to make the base setup like this:
 
 // call the packages we need
@@ -272,7 +271,7 @@ request(deleteJoke,function(error,res,body){
 This kind of testing is similar to the use of POSTMAN where you can test the request and response.
 That means you cannot make an assert.
 
-##8.Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to test asynchronous code
+###8. Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to test asynchronous code
 
 To test JavaScript code, we can install and use the test librabry "Mocha". In Mocha we use an describe
 block, which corresponds to a test suite where we can place all our test. The describe block takes two
@@ -323,7 +322,7 @@ The important thing to remember when testing async is simply to add a callback (
 Then Mocha will know that it should wait for completion.
 
 The code below is the code i get from the "module.joke" in my "it block".
------------------
+
 exports.joke = function(callback){
   var http = require('http');
 
@@ -345,9 +344,9 @@ exports.joke = function(callback){
   })
       .end();
 };
-*/
 
-##9Explain, using relevant examples, different ways to mock out databases, HTTP-request etc?
+
+###9. Explain, using relevant examples, different ways to mock out databases, HTTP-request etc?
 Normally when you make a test, it will be a benefit to isolate your test as much as possible,
 to avoid influence from other aspects. To isolate a test of a API, and to remove any dependencies,
 i could be a good idea to mock the HTTP requests and the database. This can be done by using a
