@@ -375,3 +375,63 @@ The code below is the code i call with my stub and a callback as parameter.
             callback('Language is ' + reply.language);
         });
     };
+
+You can also use the test framework "nock" to mock a http request. See example below:
+
+The function which i want to isolate and test:
+
+    exports.getAvailableTickets = function (airport,date,numbOfTickets,callback){
+        var URL = "http://angularairline-plaul.rhcloud.com/api/flightinfo/"+airport+"/"+date.toISOString()+"/"+numbOfTickets;
+        request(URL, function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                return callback(null,JSON.parse(body));
+            } else{
+                return callback(error,JSON.parse(body))
+            }
+        })
+    };
+
+The test file where I use nock to mock the http request
+
+    var module = require('../lib/index');
+    var nock = require('nock');
+    var expect = require('chai').expect;
+
+    var airport = 'SXF';
+    var date = new Date("2016-03-09");
+    var numTickets = 4;
+
+    before(function(done){
+        nock('http://angularairline-plaul.rhcloud.com')
+            .get('/api/flightinfo/' + airport + '/' + date.toISOString() + '/' + numTickets)
+            .reply(200, {
+                airline: 'AngularJS Airline',
+                flights: [
+                    {
+                        flightID: 'COL2215x100x2016-03-09T08:00:00.000Z',
+                        numberOfSeats: 4,
+                        date: '2016-03-09T08:00:00.000Z',
+                        totalPrice: 340,
+                        travelTime: 60,
+                        origin: 'SXF',
+                        destination: 'MAD'
+                    }
+                ]
+            });
+        done();
+    });
+
+    describe('Testing getAvailableTickets method', function () {
+        it('returns a response with flightInfo', function(done){
+            module.getAvailableTickets(airport, date, numTickets, function(err, flightInfo){
+                expect(flightInfo.airline).to.be.a('string');
+                expect(flightInfo.flights.length).to.equal(1);
+                expect(flightInfo.flights[0].origin).to.equal('SXF');
+                expect(flightInfo.flights[0].destination).to.equal('MAD');
+                done();
+            })
+        })
+    });
+
+
+
