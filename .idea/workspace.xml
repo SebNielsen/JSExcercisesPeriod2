@@ -1,7 +1,473 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d8e941d-8d95-4086-88e9-add170ccd59b" name="Default" comment="" />
+    <list default="true" id="4d8e941d-8d95-4086-88e9-add170ccd59b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/dist/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/images/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/.bin/_mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/.bin/mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/jasmine/blanket_jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/jasmine/blanket_jasmine.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/mocha/blanket_mocha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/mocha/blanket_mocha.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/qunit/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/qunit/blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/dist/qunit/blanket.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/.bin/acorn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/.tern-project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/acorn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/build-acorn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/generate-identifier-regex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/prepublish.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/update_authors.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/bin/without_eval" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/dist/acorn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/dist/acorn_csp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/dist/acorn_loose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/dist/walk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/expression.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/identifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/acorn_loose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/expression.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/parseutil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/statement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/loose/tokenize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/lval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/parseutil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/statement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/tokencontext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/tokenize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/tokentype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/walk/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/acorn/src/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/example/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/example/keyword.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/example/prompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/bin/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/custom-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/es6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/for.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/inspect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/opts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/falafel/test/parent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/foreach/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/isarray/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/.jscs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/isArguments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/object-keys/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/immutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/node_modules/xtend/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/adapters/jasmine-2.x-blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/adapters/jasmine-blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/adapters/mocha-blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/adapters/usage-blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/adapters/yui-blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/blanket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/blanketRequire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/blanket_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/loaders/blanket_cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/node-loaders/cjsx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/node-loaders/coffee-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/node-loaders/simple-node-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/qunit/noautorun.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/qunit/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/qunit/reporter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/reporters/lcov_reporter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/blanket/src/reporters/simple_json_reporter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/CODE_OF_CONDUCT.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/ReleaseNotes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/chai.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/karma.sauce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/assertion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/core/assertions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/interface/assert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/interface/expect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/interface/should.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/addChainableMethod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/addMethod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/addProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/expectTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/flag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getActual.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getMessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getPathInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getPathValue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/getProperties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/hasProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/inspect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/objDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/overwriteChainableMethod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/overwriteMethod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/overwriteProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/lib/chai/utils/transferFlags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/assertion-error/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/assertion-error/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/assertion-error/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/assertion-error/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/assertion-error/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/lib/eql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/lib/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/deep-eql/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/ReleaseNotes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/lib/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/node_modules/type-detect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/chai/sauce.browsers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/bin/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/bin/_mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/bin/mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/bin/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/browser/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/browser/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/browser/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/browser/tty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/hook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/bdd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/interfaces/tdd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/mocha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/pending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/doc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/dot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/html-cov.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/json-cov.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/json-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/landing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/nyan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/tap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/templates/coverage.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/templates/menu.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/templates/script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/templates/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/reporters/xunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/runnable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/suite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/mocha.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/mocha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/.bin/jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/.bin/mkdirp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/.bin/supports-color" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/commander/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/commander/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/commander/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/diff/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/diff/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/diff/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/escape-string-regexp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/escape-string-regexp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/escape-string-regexp/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/examples/g.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/examples/usr-local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/glob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/test/open.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/test/readdir-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/minimatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/brace-expand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/caching.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/00-setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/bash-comparison.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/bash-results.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/cwd-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/globstar-match.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/mark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/nocase-nomagic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/pause-resume.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/root-nomount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/stat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/glob/test/zz-cleanup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/growl/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/growl/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/growl/lib/growl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/growl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/growl/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/bin/jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/jade.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/jade.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/doctypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/inline-tags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/lexer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/block-comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/block.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/case.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/doctype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/literal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/mixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/nodes/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/runtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/self-closing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/lib/commander.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/commander/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.rej" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.rej" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/clobber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/mkdirp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/perm_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/rel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/umask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/umask_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/runtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/runtime.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/test.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/head.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/layout.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/user.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/jade/testing/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/bin/cmd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/bin/usage.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/examples/pow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/example/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/dash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/default_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/dotted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/clobber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/mkdirp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/opts_fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/opts_fs_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/perm_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/rel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/return.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/return_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/umask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/mkdirp/test/umask_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/supports-color/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/supports-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/supports-color/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/node_modules/supports-color/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/node_modules/mocha/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MochaExcercises/5-mocking-request/test/test.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MochaExcercises/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExpressExcercises/Excercise2/node_modules/jade/bin/jade.js" afterPath="$PROJECT_DIR$/ExpressExcercises/Excercise2/node_modules/jade/bin/jade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js" afterPath="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js" />
+    </list>
     <ignored path="ExamPrepPeriod2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,44 +487,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.962963">
-              <caret line="370" column="75" selection-start-line="370" selection-start-column="75" selection-end-line="370" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js">
+        <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5102041">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jokes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/model/jokes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.80818415">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise2/node_modules/.bin/jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,56 +530,24 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.41666666">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/test/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/test/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,7 +562,17 @@
         <option value="$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/test/test.js" />
         <option value="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/package.json" />
         <option value="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/app.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/model/jokes.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/module/angularAirline.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/angularAirline/angularAirline.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/test/test.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/package.json" />
+        <option value="$PROJECT_DIR$/ExpressExcercises/Excercise2/node_modules/.bin/jade" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-mockingRequest/package.json" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-mocking-request/package.json" />
         <option value="$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-mocking-request/lib/index.js" />
+        <option value="$PROJECT_DIR$/MochaExcercises/5-mocking-request/test/test.js" />
       </list>
     </option>
   </component>
@@ -140,7 +582,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+    <option name="x" value="35" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
@@ -201,6 +643,76 @@
               <option name="myItemId" value="MochaExcercises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-mocking-request" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MochaExcercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-mocking-request" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MochaExcercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-mocking-request" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MochaExcercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-mocking-request" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -239,50 +751,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPrepPeriod2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPrepPeriod2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MochaExcercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4-testingRestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPrepPeriod2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamPrepPeriod2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MochaExcercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4-testingRestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,6 +786,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="3-testingAsyncCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MochaExcercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="1-calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -340,7 +830,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamPrepPeriod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MochaExcercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,8 +868,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,12 +881,15 @@
     <property name="SearchEverywhereHistoryKey" value="Shu&#9;ACTION&#9;EditorDeleteToWordStartInDifferentHumpsMode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/angularAirline" />
+      <recent name="$PROJECT_DIR$/MochaExcercises/5-MockingHTTPRequest/test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MochaExcercises" />
+      <recent name="$PROJECT_DIR$/MochaExcercises/5-mockingRequest" />
       <recent name="$PROJECT_DIR$/ExpressExcercises" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -444,17 +955,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1280" height="731" extended-state="0" />
+    <frame x="35" y="23" width="1280" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57276994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34633386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -462,7 +983,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -477,152 +997,60 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/MochaExcercises.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/node_modules/.bin/mocha">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/node_modules/.bin/_mocha">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise2/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049099836">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise3/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9885434">
-          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise3/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79452056">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.185184">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23796791">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.962963">
           <caret line="370" column="75" selection-start-line="370" selection-start-column="75" selection-end-line="370" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/model/jokes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,10 +1070,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/package.json">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/MochaExcercises.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/node_modules/.bin/mocha">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/node_modules/.bin/_mocha">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise2/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049099836">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9885434">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise3/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79452056">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.185184">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise4/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23796791">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -655,14 +1193,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.41666666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
@@ -671,25 +1209,121 @@
     <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/model/jokes.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06097561">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10958904">
+          <caret line="370" column="75" selection-start-line="370" selection-start-column="75" selection-end-line="370" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressExcercises/Excercise2/node_modules/.bin/jade">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="43" />
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/3-testingAsyncCode/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5102041">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.21483377">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.21526">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6539509">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/1-calculator/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/4-testingRestAPI/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MochaExcercises/5-mocking-request/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80818415">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding />
         </state>
       </provider>

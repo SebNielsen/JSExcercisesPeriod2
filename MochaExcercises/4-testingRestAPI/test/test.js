@@ -5,14 +5,14 @@ var app = require('../app');
 var server;
 var TEST_PORT = 3000;
 
-before(function(done){
+beforeEach(function(done){
    server = http.createServer(app);
    server.listen(TEST_PORT,function(){
        done();
    })
 });
 
-after(function(done){
+afterEach(function(done){
     server.close();
     done();
 });
